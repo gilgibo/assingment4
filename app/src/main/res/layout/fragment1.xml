@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#f96d7b"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사과 Table(비어있음)" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="포도 Table(비어있음)" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="키위 Table(비어있음)" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자몽 Table(비어있음)" />
+
+
+    </LinearLayout>
+</LinearLayout>
